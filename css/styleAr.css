@@ -1,0 +1,99 @@
+
+.navbar,.footer,.contact,.faq,.pricingBody,.pricingPrice,.howItWork,
+.downlaodSection,.fun-facts-text .row,.fun-facts-text p,.home,.fun-facts,
+.AppScreenShot .swiper.myScreenshotSwiper,.testimonial .swiper.testimonialswiper,
+.teamSection .swiper.teamSectionSwiper,.features .swiper.mySwiper{
+    direction: rtl;
+}
+@font-face {
+  font-family: 'Noto Sans Arabic';
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url(../webfonts/nwpxtLGrOAZMl5nJ_wfgRg3DrWFZWsnVBJ_sS6tlqHHFlhQ5l3sQWIHPqzCfyGyfuXqA.woff2) format('woff2');
+  unicode-range: U+0600-06FF, U+200C-200E, U+2010-2011, U+204F, U+2E41, U+FB50-FDFF, U+FE80-FEFC, U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* arabic */
+@font-face {
+  font-family: 'Readex Pro';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 500;
+  src: url(../webfonts/SLXYc1bJ7HE5YDoGPuzj_dh8na74KiwZQQxtm4w1ZEzMhQ.woff2) format('woff2');
+  unicode-range: U+0600-06FF, U+200C-200E, U+2010-2011, U+204F, U+2E41, U+FB50-FDFF, U+FE80-FEFC;
+}
+body{
+    font-family: 'Readex Pro', sans-serif;
+    font-family: 'Noto Sans Arabic', sans-serif;
+}
+.navbar .navbar-nav{
+    margin-right: auto;
+    margin-left: 0px !important;
+    font-weight: 800;
+}
+.home {
+    border-radius: 0 0 0 28%;
+}
+.effect-wrap .effect1{
+     right: 20%;
+     left:unset;
+}
+.effect-wrap .effect2{
+    right: unset;
+    left: 5%;
+}
+.effect-wrap .effect3{
+    left: unset;
+    right: 5%;
+}
+.btn1{font-size: 25px;}
+.home .homeBtn .videoPlay{
+    margin:0 1.87rem 0 0;
+}
+.swiper-slide .feateres-item .icon::before {left: unset;right: 100%;}
+.swiper-slide .feateres-item:hover .icon::before{
+    left: unset;
+    right: 0;
+}
+.sectionTitle{ font-size: 2.5rem;}
+.fun-facts-text .row{font-size: 24px;}
+.fun-facts-item span {font-size: 24px;}
+.howItWorkItem.lineRight::before {
+    left: unset;
+    right: 50%;
+}
+.pricingPlan .pricingBody ul{
+    padding-left: 0px;
+}
+.pricingPlan .pricingBody ul li{
+    padding: 10px 30px 10px 0px;
+}
+.pricingPlan .pricingBody ul li .icon{
+    left: unset;
+    right: 0;
+}
+.accordionItem .accordionHeaer::before {
+    left: 5%;
+    right: unset;
+}
+.contactInfoItem .icon {
+    right: 0;
+    left: unset;
+}
+.contactInfoItem{padding: 0 4rem 0 0;}
+.toggleDemo{
+    right: unset;
+    left: 0px;
+}
+.arlang{
+    margin-right: auto;
+    margin-left: 0px;
+}
+.goToUp{
+    left:unset;
+    right: 20px;
+}
+.footer div:nth-child(4) .footer-col{
+    margin: 0 ;
+}
